@@ -149,5 +149,5 @@ x=[]
 for i in numbers:
     if(i>500):
         break
-    elif(i%5==0 and i<150):
+    elif(i%5==0 and i<=150):
         x.append(i)
