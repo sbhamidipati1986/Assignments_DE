@@ -664,15 +664,11 @@ Q98. Write a python program to print below pattern.
 x=' '
 y='* '
 for i in range(1,6):
-    if(i!=6):
-        s=(6-i)*x+i*y+(6-i)*x
-        print(s,end='')
-        print('\t')
-    else:
-        s=x+i*y+x
-        print(s,end='')
-        print('\t')
     
+    s=(6-i)*x+i*y+(6-i)*x
+    print(s,end='')
+    print('\t')
+  
 
 Q99. Write a python program to print below pattern.
 ```
